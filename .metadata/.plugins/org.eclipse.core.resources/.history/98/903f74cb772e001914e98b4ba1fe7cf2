@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Players_Data">
+        <property name="context-root" value="Players_Data"/>
+        <property name="java-output-path" value="/Players_Data/build/classes"/>
+    </wb-module>
+</project-modules>

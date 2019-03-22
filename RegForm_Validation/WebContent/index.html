@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>
+ Registration Form
+</title>
+<link href="Logo.jpg"rel="icon" type='image/ico'/>
+<script type="text/javascript" src="validation.js"> </script>
+</head>
+<body bgcolor="black">
+<form action="RegServlet" method="get">
+
+<h1 align="center" style="color:red"><marquee behavior="alternate"><i>Employee Registration Form</i></marquee></h1><br>
+
+<table cellpadding="2" height="80%" width="40%" bgcolor="megenta" align="center"
+cellspacing="2">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>Employee Details</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td> Employee Id <font color="red"><strong>*</strong></font></td> 
+<td><input type=text  id="Eid" name="Eid" size="30"></td>
+</tr>
+
+<tr>
+<td>First Name <font color="red"><strong>*</strong></font></td>
+<td><input type="text" id="firstName" name="firstName" size="30"></td>
+</tr>
+
+<tr>
+<td>Middle Name </td>
+<td><input type="text" id="middleName" name="middleName" size="30"></td>
+</tr>
+
+<tr>
+<td>Last Name <font color="red"><strong>*</strong></font></td>
+<td><input type="text"  id="lastName" name="lastName" size="30"></td>
+</tr>
+
+<tr>
+<td>Date of Birth <font color="red"><strong>*</strong></font></td>
+<td><input type="date" id="dob" name="dob" size="30"></td>
+</tr>
+
+ <tr>
+ <td>Gender<font color="red"><strong>*</strong></font></td>
+ <td><select name="gender" id="gender">
+<option value="" selected>select</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Other">Other</option>
+</select>
+ </tr> 
+
+<tr>
+<td>Phone Number <font color="red"><strong>*</strong></font></td>
+<td><input type="text" id="phoneNumber" name="phoneNumber" size="30"></td>
+</tr>
+
+</tr>
+<tr>
+<td>Email Id <font color="red"><strong>*</strong></font></td>
+<td><input type="text" id="emailId" name="emailId" size="30"></td>
+</tr>
+
+
+<tr>
+<td>Address <font color="red"><strong>*</strong></font></td>
+<td><textarea name="pAddress" id=pAddress rows="3" cols="29"></textarea></td></tr>
+
+<tr>
+<td>City <font color="red"><strong>*</strong></font></td>
+<td><select name="city" id="city">
+<option value="" selected>select</option>
+<option value="Banglore">Banglore</option>
+<option value="Chennai">Chennai</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Vizag">Vizag</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>State <font color="red"><strong>*</strong></font></td>
+<td><select name="state" id="state">
+<option value="" selected>select</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Tamilnadu">Tamilnadu</option>
+<option value="Telangana">Telangana</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Country <font color="red"><strong>*</strong></font></td>
+<td><select name="country" id="country">
+<option value="" selected>select</option>
+<option value="America">America</option>
+<option value="Australia">Australia</option>
+<option value="Brazil">Brazil</option>
+<option value="India">India</option>
+</select></td>
+</tr>
+
+<tr>
+<td><input type="reset" value="Reset"></td>
+<td colspan="2"><input type="submit" value="Submit" onclick="return doValidation()" /></td>
+</tr>
+</table>
+</form>
+																																																																																																					
+</body>
+</html>
+
+

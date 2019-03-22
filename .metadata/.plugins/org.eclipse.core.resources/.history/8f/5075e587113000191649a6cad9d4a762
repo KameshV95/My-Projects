@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+<bean id="pd" class="com.playerDetails.PlayerDetails">
+  
+  <property name="palyerName"   value="Rohit"/>
+  <propery  name="jersyNumber"  value="45"/>
+  <propery  name="birthDate"  value="30/04/1988"/>
+  <propery  name="birthPlace"  value="Mumbai"/>
+  <propery  name="role"  value="Batsman"/>
+  <propery  name="battingStyle"  value="Right Hand"/>
+  <propery  name="bowlingStyle"  value="Right Arm Off Spin"/>
+  
+
+
+
+
+
+</bean>
+</beans>

@@ -1,0 +1,43 @@
+package com.playerDetails;
+
+public class PalyerBattingCarreer {
+	
+	private int matches;
+	private int innings;
+	private int notOuts;
+	private int runs;
+	private int highScore;
+	private float average;
+	private float strikeRate;
+	private int centuries;
+	private int doubleCenturies;
+	private int halfCenturies;
+	private int fours;
+	private int sixers;
+	private PlayerDetails pd;
+	
+	public void getPlayerBattingCarreer() {
+		
+		System.out.println("Players Details");
+		
+		 System.out.println("Player Name   :-"+pd.getPalyerName());
+		 System.out.println("Jersy Number  :-"+pd.getJersyNumber());
+		 System.out.println("Birth Date    :-"+pd.getBirthDate());
+		 System.out.println("Birth Place   :-"+pd.getBirthPlace());
+		 System.out.println("Role          :-"+pd.getRole());
+		 System.out.println("Batting Style :-"+pd.getBattingStyle());
+		 System.out.println("Bowling Style :-"+pd.getBowlingStyle());
+		 
+		 
+		 System.out.println("Player Batting Carrer");
+		 
+		 System.out.println("Matches   :-" +matches);
+		 
+		 
+		 
+	}
+	
+	
+	
+
+}

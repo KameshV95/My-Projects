@@ -1,0 +1,10 @@
+package com.playerRegistration;
+
+public class PlayerRegistration {
+	
+	private String palyerName;
+	private int jersyNumber;
+	private String place;
+	
+
+}

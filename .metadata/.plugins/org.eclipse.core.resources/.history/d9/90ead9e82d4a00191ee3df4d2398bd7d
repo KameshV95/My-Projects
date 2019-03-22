@@ -1,0 +1,20 @@
+package org.reg.dao;
+
+public class RegistrationDetailsDaoImpl implements RegistrationDetailsDao {
+
+	public void insertVoterDetails() {
+		
+		
+	}
+
+	public void updateVoterDetails() {
+		
+		
+	}
+
+	public void deleteVoterDetails() {
+		
+		
+	}
+
+}

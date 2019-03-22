@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="HbmOne2Many"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="HbmOne2Many"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\My Projects\MyApp1\SpringMvcHibernate\src\main\java\com\mvc\beans\Person.java"/>
+			<item value="E:\My Projects\MyApp1\CricketApplication"/>
+			<item value="E:\My Projects"/>
+			<item value="E:\My Projects\MyApp1"/>
+			<item value="E:\My Projects\InsuranceBySS"/>
+			<item value="E:\My Projects\MyApp1\SpringWebMVC"/>
+			<item value="E:\My Projects\MyApp1\DhatriHRM"/>
+			<item value="E:\My Projects\MyApp1\Cricket_Application"/>
+			<item value="E:\My Projects\MyApp1\SpringMVCAnnotationShoppingCart\pom.xml"/>
+			<item value="E:\My Projects\MyApp1\Spring\src\com\nt\test\Test.java"/>
+			<item value="E:\My Projects\MyApp1\Logics"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.reg.EmployeeIntegration"/>
+			<item value="org.reg.HibernateOne2Many"/>
+			<item value="org.reg.VoterRegistration"/>
+		</list>
+		<list key="groupId">
+			<item value="com.reg"/>
+			<item value="org.reg"/>
+		</list>
+		<list key="artifactId">
+			<item value="EmployeeIntegration"/>
+			<item value="HibernateOne2Many"/>
+			<item value="VoterRegistration"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;EmployBean.java&apos; to &apos;RegForm_Validation/src/com.bean&apos;&#x0D;&#x0A;- Original project: &apos;RegForm_Validation&apos;&#x0D;&#x0A;- Destination element: &apos;RegForm_Validation/src/com.bean&apos;&#x0D;&#x0A;- Original element: &apos;com.practice.EmployBean.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.bean" element1="/src&lt;com.practice{EmployBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1552219953349" units="1" version="1.0"/>
+</session>

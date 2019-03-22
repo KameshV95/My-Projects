@@ -1,0 +1,23 @@
+1552552959894	Rename resource 'index.jsp'
+1552556108929	Delete element
+1552571113866	Move 'VoterRegistration.jsp' to 'views'
+1552571130551	Move 'index.jsp' to 'webapp'
+1552571301704	Move 'VoterRegistration.jsp' to 'webapp'
+1552571355798	Move 'views' to 'webapp'
+1552571360338	Move 'VoterRegistration.jsp' to 'views'
+1552571367196	Move 'index.jsp' to 'views'
+1552639565826	Rename resource 'home.jsp'
+1552639818089	Move 'index.jsp' to 'webapp'
+1552639825721	Move 'views' to 'WEB-INF'
+1552640091849	Move 'views' to 'webapp'
+1552640948595	Delete element
+1552641744720	Move 'views' to 'WEB-INF'
+1552642375312	Move 'views' to 'webapp'
+1552642738399	Delete element
+1552642771100	Rename type 'DateController'
+1552643251946	Rename resource 'EligilibityCheck.jsp'
+1552643329249	Rename type 'EligilibityCheckController'
+1552643940988	Rename resource 'Eligibility.jsp'
+1552644749772	Delete element
+1552646155845	Move 'views' to 'WEB-INF'
+1552741997843	Move 'EligibilityValidation.js' to 'views'

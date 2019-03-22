@@ -1,0 +1,46 @@
+package org.reg.controller;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class VoterRegistrationController {
+	
+	@RequestMapping(value="/EiligibilityCheck")
+	public ModelAndView openCheck(){
+		
+		return new ModelAndView("EligibilityCheck");
+
+	}
+	
+	@RequestMapping(value="/date",method=RequestMethod.POST)
+	public ModelAndView getDate(@RequestParam("dob") String dob) throws ParseException {
+		System.out.println(dob);
+		
+	    SimpleDateFormat sformat= new SimpleDateFormat("yyyy/MM/dd");
+		
+	    Date date=new Date();
+	    date =sformat.parse(dob);
+		
+		/*Date date= new Date();*/
+		int currentDate=date.getYear();		
+		int enteredDate=date.getYear();
+		int result= currentDate-enteredDate;
+		 if(result>=18) {		 
+		return new ModelAndView("VoteRegistration");
+		 }	 
+		else {
+		return new ModelAndView("Failure");
+		}
+	}
+	
+	
+}
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+<bean id="pd" class="com.playerDetails.PlayerDetails">
+  
+  <property name="palyerName"   value="Rohit"/>
+  <propery  name="jersyNumber"  value="45"/>
+  <propery  name="birthDate"  value="30/04/1988"/>
+  <propery  name="birthPlace"  value="Mumbai"/>
+  <propery  name="role"  value="Batsman"/>
+  <propery  name="battingStyle"  value="Right Hand"/>
+  <propery  name="bowlingStyle"  value="Right Arm Off Spin"/>
+</bean>
+
+<bean id="pbc" class="com.playerDetails.PalyerBattingCarreer">
+
+  <property name="matches" value="198"/>
+  <property name="innings" value="194"/>
+  <property name="notOuts" value="36"/>
+  <property name="runs" value="7894"/>
+  <property name="highScore" value="264"/>
+  <property name="average" value="46.87"/>
+  <property name="strikeRate" value="120.6"/>
+  <property name="doubleCenturies" value="3"/>
+  <property name="centuries" value="22"/>
+  <property name="halfCenturies" value="68"/>
+  <property name="fours" value="823"/>
+  <property name="sixers" value="302"/>
+  <property name="pd" ref="pd"/>
+  
+
+</bean>
+</beans>

@@ -1,0 +1,13 @@
+1552193541649	Delete element
+1552277369593	Delete element
+1552277401232	Delete element
+1552277427523	Delete element
+1552277451792	Move 'spring' to 'WEB-INF'
+1552277482320	Move 'classes' to 'WEB-INF'
+1552277623610	Rename resource 'Root-context.xml'
+1552277649830	Move 'root-context.xml' to 'spring'
+1552277673309	Rename resource 'index.jsp'
+1552277684296	Move 'Person.jsp' to 'views'
+1552286854967	Move 'resources' to 'webapp'
+1552406605102	Rename resource 'servlet-context.xml'
+1552406897290	Rename resource 'appServlet-servlet.xml'

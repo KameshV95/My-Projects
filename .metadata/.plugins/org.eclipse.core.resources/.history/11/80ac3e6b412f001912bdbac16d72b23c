@@ -1,0 +1,130 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>League Home</title>
+</head>
+<form action="">
+
+<body background="E:\My Projects\MyApp1\Players_Data\CricketLogo.jpg">
+<div>
+<header style="background-color:#354E9A; height:95px;width:60%;padding-left:80px;margin-left:245px">
+
+</header>
+</div>
+
+<header style="background-color:white; height:2px;width:43.5%;padding-top:0px;margin-left:395px"></header>
+<header style="background-color:orange; height:30px;width:36%;padding-right:80px;margin-left:430px">
+<h4><b><font color="white" align="left" >CREATE SERIES</font></b></h4>
+</header>
+
+
+<table background="CricketLogo.jpg" width="45%"  height="50" cellpadding="2" height="80%" width="50%" align="center"
+cellspacing="15" colspan="2" background="CricketLogo.jpg">
+
+<tr>
+<td><b><font color="sky blue">Series Name:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type=text  id="series name" name="series name" placeholder="Series Name" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Series Start Date:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type=text  id="series start date" name="series start date" placeholder="Series Start Date" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Series Name:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type=text  id="series end date" name="series end date" placeholder="Series End Date" size="40"></td>
+</tr>
+
+
+ <tr>
+ <td><b><font color="sky blue">Group</font></b><font color="red"><strong>*</strong></font></td>
+ <td><select name="group" id="group" style="width: 290px;" size="1">
+<option value="" selected>select</option>
+<option value="North Zone">North Zone</option>
+<option value="South Zone">South Zone</option>
+<option value="East Zone">East Zone</option>
+<option value="West Zone"> West Zone</option>
+</select>
+</td>
+</tr>
+
+<tr>  
+   <td class="tdLabel"><label for="register_gender" class="label"><font color="sky blue"><b>Match Type</b></font></label></td>  
+    <td>  
+<input type="radio" name="gender" id="limited overs" value="Limited Overs"/>  
+<label for="limited overs">Limited Overs</label>  
+<input type="radio" name="gender" id="test" value="Test"/>  
+<label for="test">Test</label>  
+    </td>  
+</tr>  
+ 
+ <tr>
+<td><b><font color="sky blue">Series Type:</font></b> </td> 
+<td><input type=text  id="series type" name="series type" placeholder="Series Type" size="40"></td>
+</tr>
+
+<tr>
+ <td><b><font color="sky blue">Maximum Players per Team in a Match</font></b></td>
+ <td><select name="max players in match" id="max players in match" style="width: 290px;" size="1">
+<option value="" selected>select</option>
+<option value="five">5</option>
+<option value="seven">7</option>
+<option value="nine">9</option>
+<option value="eleven">11</option>
+</select>
+</td>
+</tr>
+
+<tr>
+ <td><b><font color="sky blue">Maximum Player Limit for Team Roster</font></b></td>
+ <td><select name="max players in team roster" id="max players in team roster" style="width: 290px;" size="1">
+<option value="" selected>select</option>
+<option value="five">Five</option>
+<option value="seven">Seven</option>
+<option value="nine">Nine</option>
+<option value="eleven">Eleven</option>
+<option value="nolimit">No Limit</option>
+</select>
+</td>
+</tr>
+
+<tr>
+ <td><font color="sky blue"><b>Ball Type</b></font></td>
+ <td><select name="ball type" id="ball type" style="width: 290px;" size="1">
+<option value="" selected>select</option>
+<option value="hard tennis">Hard Tennis</option>
+<option value="light tennis">Light Tennis</option>
+<option value="red cricket ball">Red Cricket Ball</option>
+<option value="pink cricket ball">Pink Cricket Ball</option>
+<option value="white cricket ball"> White Cricket Ball</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Win Points:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type=text  id="win points" name="win points" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Bonus Points:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type=text  id="bonus points" name="bonus points"  size="40"></td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="CREATE" style="background-color:orange;border:2px;padding:5px;color:white;font-weight: bold"/>
+</td>
+</tr>
+
+
+
+</table>
+
+</body>
+</form>
+</html>

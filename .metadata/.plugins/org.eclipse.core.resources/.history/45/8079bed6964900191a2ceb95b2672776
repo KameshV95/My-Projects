@@ -1,0 +1,5 @@
+package org.reg.dao;
+
+public class RegistrationDetailsDaoImpl {
+
+}

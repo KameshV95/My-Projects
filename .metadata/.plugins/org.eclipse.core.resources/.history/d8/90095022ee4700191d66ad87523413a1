@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript"  src="<d:url" value="/js/EligibilityValidation.js"> </script>
+<title>DOB</title>
+</head>
+<body>
+<h2 align="center"><font color="green"><font>Check Your Eligibility Here</font></h2>
+
+<form action="date"method="post">
+<table align="center">
+<tr>
+<td>
+<h3><font color="orange">Enter Your Date Of Birth</font></h3>
+<input type="date" name="dob" id="dob">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="Submit" onclick="return eligibilityValidation()">
+<input type="reset" value="Reset" align="right">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

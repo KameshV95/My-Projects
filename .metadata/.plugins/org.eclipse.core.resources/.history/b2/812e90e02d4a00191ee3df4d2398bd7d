@@ -1,0 +1,8 @@
+package org.reg.dao;
+
+public interface RegistrationDetailsDao {
+	public void insertVoterDetails();
+	public void updateVoterDetails();
+	public void deleteVoterDetails();
+
+}

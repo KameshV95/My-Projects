@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.logics.MagicNumber&apos; to &apos;SumOfTotalDigits&apos;&#x0D;&#x0A;- Original project: &apos;Logics&apos;&#x0D;&#x0A;- Original element: &apos;com.logics.MagicNumber&apos;&#x0D;&#x0A;- Renamed element: &apos;com.logics.SumOfTotalDigits&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MagicNumber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/connectorModule&lt;com.logics{MagicNumber.java[MagicNumber" matchStrategy="1" name="SumOfTotalDigits" qualified="false" references="true" similarDeclarations="false" stamp="1549728775923" textual="false" version="1.0"/>
+</session>

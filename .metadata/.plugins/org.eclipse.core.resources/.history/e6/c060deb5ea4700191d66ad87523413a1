@@ -1,0 +1,4 @@
+function eligibilityValidation(){
+	
+	var dob=getElementById(dob).value;
+}

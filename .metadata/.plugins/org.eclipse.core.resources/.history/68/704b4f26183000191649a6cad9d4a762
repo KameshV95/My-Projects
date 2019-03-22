@@ -1,0 +1,21 @@
+package com.playerDetails.Test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.playerDetails.PalyerBattingCarreer;
+
+public class PlayerTest {
+
+	public static void main(String[] args) throws Exception {
+		
+		@SuppressWarnings("resource") 
+		
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		PalyerBattingCarreer playerbattingcarrer = (PalyerBattingCarreer)applicationContext.getBean("pcb");
+		         
+		              playerbattingcarrer.getPlayerBattingCarreer();
+		
+	}
+}

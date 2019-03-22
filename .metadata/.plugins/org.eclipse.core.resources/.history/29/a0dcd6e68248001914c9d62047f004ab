@@ -1,0 +1,71 @@
+package hbm.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Hibernate;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import hbm.entity.PhoneNumber;
+import hbm.entity.User;
+import hbm.util.HibernateUtil;
+
+public class One2ManyImplDao implements One2ManyDao{
+	
+	public static final String getAllUsersQuery="from User";
+
+	public void saveData() {
+		Session ses=HibernateUtil.getSession();
+		
+		User user= new User();
+		user.setUserId(100);
+		user.setUserName("Rohit");
+		
+		PhoneNumber phnum1=new PhoneNumber();
+		phnum1.setPhoneNumber(7382527134l);
+		phnum1.setNumberType("Personal");
+		
+		PhoneNumber phnum2=new PhoneNumber();
+		phnum2.setPhoneNumber(7997737598l);
+		phnum2.setNumberType("Office");
+		
+		List<PhoneNumber> list =new ArrayList<PhoneNumber>();
+		list.add(phnum1);
+		list.add(phnum2);
+		user.setPhNumbers(list);
+		
+		Transaction tx=null;
+		try {
+			tx=ses.beginTransaction();
+			ses.save(user);
+		}
+		catch(Exception e) {
+			tx.rollback();
+			
+		}
+		
+		
+	}
+
+	public void deleteOneUserNumber() {
+		
+		Session ses=HibernateUtil.getSession();
+		User user =(User) ses.get(User.class, 100);
+		List<PhoneNumber> list=user.getPhNumbers();
+		PhoneNumber phnum=(PhoneNumber)list.get(0);
+		Transaction tx=null;
+		try {
+			tx=ses.beginTransaction();
+			list.remove(phnum);
+			tx.commit();
+		}
+		catch(Exception e){
+			tx.rollback();
+		}
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Mar/2019:20:23:13 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:44 +0530] "GET /VoterRegistration/ HTTP/1.1" 200 479
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:45 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:50 +0530] "GET /VoterRegistration/EiligibilityCheck HTTP/1.1" 200 780
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:50 +0530] "GET /js/EligibilityValidation.js HTTP/1.1" 404 1105
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:52 +0530] "POST /VoterRegistration/date HTTP/1.1" 500 3928
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:54 +0530] "GET /js/EligibilityValidation.js HTTP/1.1" 404 1105
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:20:23:59 +0530] "POST /VoterRegistration/date HTTP/1.1" 500 3958

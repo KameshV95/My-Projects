@@ -1,0 +1,93 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>VoterId Registration</title>
+s
+</head>
+<body background="">
+
+<form action="voterRegistration">
+
+<div>
+<header style="background-color:#354E9A; height:95px;width:52%;padding-left:80px;margin-left:245px">
+
+
+</header>
+</div>
+
+<header style="background-color:white; height:2px;width:43.5%;padding-top:0px;margin-left:395px"></header>
+<header style="background-color:orange; height:30px;width:32.5%;padding-right:1px;margin-left:426px">
+
+
+<h4><b><font color="white" align="center" >Register Your Vote</font></b></h4>
+</header>
+
+
+<table background="" width="45%"  height="50" cellpadding="2" height="80%" width="50%" align="center"
+cellspacing="15" colspan="2" background="">
+
+<tr>
+<td><b><font color="sky blue">First Name</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type="text"  id="firstName" name="firstName" placeholder="First Name" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Middle Name</font></b></td> 
+<td><input type=text  id="middleName" name="middleName" placeholder="Middle Name" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Last Name:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type="text"  id="lastName" name="lastName" placeholder="Last Name" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Father Name:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type="text"  id="fatherName" name="fatherName" placeholder="Father Name" size="40"></td>
+</tr>
+
+<tr>  
+<td class="tdLabel"><label for="register_gender" class="label"><font color="sky blue"><b>Gender</b></font></label></td>  
+    <td>  
+<input type="radio" name="gender" id="male" value="male"/>  
+<label for="male">Male</label>  
+<input type="radio" name="gender" id="female" value="female"/>  
+<label for="female">Female</label> 
+<input type="radio" name="gender" id="other" value="other"/>  
+<label for="other">Other</label> 
+    </td>  
+</tr> 
+
+<tr>
+<td><b><font color="sky blue">Date Of Birth:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type="date"  id="dateOfBirth" name="dateOfBirth" size="40"></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Age:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><intput type="text"  id="age" name="age" rows="3" cols="29"></input</td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Address:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><textarea name="address" id="address" rows="3" cols="29"></textarea></td>
+</tr>
+
+<tr>
+<td><b><font color="sky blue">Constituency:</font></b> <font color="red"><strong>*</strong></font></td> 
+<td><input type="text"  id="constituency" name="constituency" placeholder="Constituency" size="40"></td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="Register" style="background-color:orange;border:2px;padding:5px;color:white;font-weight: bold"/>
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

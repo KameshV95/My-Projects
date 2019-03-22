@@ -1,0 +1,27 @@
+package com.logics;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+public class DateCheck  {
+	
+	public static void main(String[] args) throws ParseException {
+	
+	System.out.println("Enter Your Date Of Birth");
+	Scanner sc = new Scanner(System.in);
+	Date dob = Calendar.getInstance().getTime();
+    SimpleDateFormat sformat= new SimpleDateFormat("dd/MM/yyyy");
+    Date date= new Date();
+	int currentDate=date.getYear();		
+	int enteredDate=dob.getYear();
+	int result= currentDate-enteredDate;
+	 if(result>=18) {		 
+		 System.out.println("Success");
+	 }	 
+	else {
+	System.out.println("Failure");
+	}
+}

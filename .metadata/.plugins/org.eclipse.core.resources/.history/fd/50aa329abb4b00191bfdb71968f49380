@@ -1,0 +1,30 @@
+package org.reg.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository("votersDetailsDao")
+public class RegistrationDetailsDaoImpl implements RegistrationDetailsDao {
+	
+	@Autowired
+	private static SessionFactory sessionFactory;
+
+	public void insertVoterDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void updateVoterDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteVoterDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

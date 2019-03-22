@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.logics.ToString&apos; to &apos;StringExample&apos;&#x0D;&#x0A;- Original project: &apos;Logics&apos;&#x0D;&#x0A;- Original element: &apos;com.logics.ToString&apos;&#x0D;&#x0A;- Renamed element: &apos;com.logics.StringExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ToString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/connectorModule&lt;com.logics{ToString.java[ToString" matchStrategy="1" name="StringExample" qualified="false" references="true" similarDeclarations="false" stamp="1550558193592" textual="false" version="1.0"/>
+</session>
